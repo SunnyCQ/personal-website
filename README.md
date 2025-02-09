@@ -1,3 +1,5 @@
+To test the server, type in bash: "npm run dev" in the folder of the personal website
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -1,0 +1,28 @@
+.navbar-logo{
+    color: #ffbf00;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.navbar-logo:hover {
+    color: #ff9100; /* Change color on hover */
+}
+
+.custom-nav-link{
+    color: #f8f86f;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.custom-nav-link:hover{
+    color: #ff9100;
+}
+
+  
