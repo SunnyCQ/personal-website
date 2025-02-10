@@ -25,4 +25,21 @@
     color: #ff9100;
 }
 
+.custom-nav-link-right{
+    margin-right: 20px;
+}
+
+.navbar-toggler{ /*controls the borders */
+    border: 4px solid #ff9100 !important; /* Change color and style */
+    border-radius: 5px; /* Rounded corners */
+    padding: 0px;
+}
+.navbar-toggler-icon{ /*Controls the hamburger picture*/
+    background-image: url("../assets/menu_burger_white.png") !important;
+    padding: 15px;
+    margin: -3px;
+}
+
+  
+
   
