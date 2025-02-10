@@ -1,6 +1,6 @@
 To test the server, type in bash: "npm run dev" in the folder of the personal website
 
-TESTING
+BTW, for some reason VSCode cannot push changes, but the terminal can, so just do "git push" when it comes time.
 
 # React + TypeScript + Vite
 
