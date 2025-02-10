@@ -6,24 +6,30 @@ import JapaneseLearning from "./JapaneseLearning";
 import Gaming from "./Gaming";
 import About from "./About";
 import Contact from "./Contact";
+import "../css_files/App.css";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/JapaneseLearning" element={<JapaneseLearning />} />
-          <Route path="/Piano" element={<Piano />} />
-          <Route path="/Gaming" element={<Gaming />} />
-          <Route path="/Contact" element={<Contact />} />
-        </Routes>
-      </div>
-    </Router>
+    <>
+      <Router>
+        <div>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/JapaneseLearning" element={<JapaneseLearning />} />
+            <Route path="/Piano" element={<Piano />} />
+            <Route path="/Gaming" element={<Gaming />} />
+            <Route path="/Contact" element={<Contact />} />
+          </Routes>
+        </div>
+      </Router>
+      <footer className="footer">
+        &copy; {new Date().getFullYear()} Sunny Carlin Qi. All rights reserved.
+      </footer>
+    </>
   );
 }
 

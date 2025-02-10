@@ -1,0 +1,28 @@
+@import url('./Styles.css');
+
+.homepage-desc{
+    width: 65%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.links:hover{
+    color: var(--hover-orange);
+}
+
+.homepage-bg{
+    background-color: var(--banner-turqoise);
+    margin-top: 200px;
+    padding: 20px;
+}
+
+.links{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--main-orange);
+}

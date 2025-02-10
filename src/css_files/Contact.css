@@ -1,0 +1,12 @@
+@import url('./Styles.css');
+
+.contacts{
+    width: 65%;
+    margin-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
