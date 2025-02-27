@@ -1,9 +1,9 @@
 :root {
-    --main-orange: #ffa200;
-    --hover-orange: #ff6f00;
-    --main-yellow: #f8f86f;
-    --banner-turqoise: #057971;
-    --bg-turqoise: #4ed79c;
-    --general-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+  --main-orange: #ffa200;
+  --hover-orange: #ff6f00;
+  --main-yellow: #f8f86f;
+  --banner-turqoise: #ffa200;
+  --bg-turqoise: #ef1b46;
+  --general-font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-  

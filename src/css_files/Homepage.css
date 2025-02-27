@@ -1,28 +1,77 @@
-@import url('./Styles.css');
+@import url("./Styles.css");
 
-.homepage-desc{
-    width: 65%;
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    color: white;
+.homepage-desc {
+  width: 65%;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: white;
 }
 
-.links:hover{
-    color: var(--hover-orange);
+.links:hover {
+  color: var(--hover-orange);
 }
 
-.homepage-bg{
-    background-color: var(--banner-turqoise);
-    margin-top: 200px;
-    padding: 20px;
+.links {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--main-orange);
 }
 
-.links{
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--main-orange);
+.homepage-banner {
+  background-image: url("/assets/red_orange_gradient.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 300px;
+  position: relative;
+  overflow: hidden; /* Ensures the sun gets "clipped" when scrolling */
+}
+
+.sun-image {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  transition: transform 0s ease-out; /* Smooth movement */
+  z-index: 0;
+}
+
+.homepage-bg {
+  background-color: var(--banner-turqoise);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
+  z-index: 1;
+}
+.homepage-header {
+  text-align: center;
+  width: 65%;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 75px;
+  color: rgb(255, 255, 255);
+}
+
+.wholepage {
+  height: relative;
+}
+
+.banner-padding {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.additional-content {
+  height: 500px;
 }

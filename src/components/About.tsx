@@ -5,7 +5,9 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 const About = () => {
   return (
     <>
-      <h1>This is the About page</h1>
+      <div className="wholepage">
+        <h1 className="title">About me</h1>
+      </div>
     </>
   );
 };
