@@ -78,11 +78,8 @@ const Homepage = () => {
           <div className="homepage-desc">
             <h1>Skills</h1>
             <Skills />
-            <div className="experience">Hey what's up</div>
           </div>
         </section>
-
-        <div className="additional-content"></div>
       </div>
     </>
   );

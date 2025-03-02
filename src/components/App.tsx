@@ -1,9 +1,9 @@
 import NavBar from "./NavBar";
 import Homepage from "./Homepage";
 import Projects from "./Projects";
-import Piano from "./Piano";
-import JapaneseLearning from "./JapaneseLearning";
-import Gaming from "./Gaming";
+import Piano from "./More/Piano";
+import JapaneseLearning from "./More/JapaneseLearning";
+import Gaming from "./More/Gaming";
 // import About from "./About";
 import Contact from "./Contact";
 import "../css_files/App.css";
