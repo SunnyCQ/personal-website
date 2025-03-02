@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Link, useLocation } from "react-router-dom";
 import Skills from "./sub_page/Skills";
+import Experiences from "./sub_page/Experiences";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -69,14 +70,9 @@ const Homepage = () => {
         </section>
         <section id="experience">
           <div className="homepage-desc">
-            <h1>Experience</h1>
-            <div className="experience-item">
-              2025 June - 2025 August: Meta Intern
-            </div>
-            <div className="experience-item">
-              2024 June - 2024 August: Columbia University Research Group
-            </div>
+            <h1>Experiences</h1>
           </div>
+          <Experiences />
         </section>
         <section id="skills">
           <div className="homepage-desc">

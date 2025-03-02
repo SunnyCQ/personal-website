@@ -16,7 +16,7 @@
     transform: scale(1.1); /* Slight zoom effect on hover */
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    border-color: #2682e5;
+    border-color: rgb(0, 153, 255);
 }
 
 .skill-icon {
