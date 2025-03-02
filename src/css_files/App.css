@@ -5,7 +5,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--bg-turqoise);
+  background-color: var(--bg-red);
 }
 
 #root,
@@ -15,8 +15,8 @@ body {
   min-height: 100vh; /* Ensures App takes up full viewport if content is short */
 }
 
-.main-content {
-  flex-grow: 1; /* Allows content to determine height */
+.content {
+  flex: 1; /* Pushes the footer to the bottom */
 }
 
 .footer {

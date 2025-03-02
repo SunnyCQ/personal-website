@@ -10,3 +10,79 @@
     font-weight: bold;
     color: white;
 }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto;
+}
+
+.form-group {
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical; /* Allows resizing but keeps it within limits */
+    min-height: 100px; /* Prevents it from being too tall */
+}
+
+.email {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.my-email {
+    margin-top: 10px;
+    color: rgb(255, 234, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-icons-container {
+    display: flex;
+    justify-content: center; /* Centers icons horizontally */
+    align-items: center; /* Aligns them vertically */
+    gap: 50px; /* Adds space between icons */
+    margin-top: 20px; /* Adjusts spacing from the top */
+}
+
+.social-icon {
+    background-color: white;
+    border: 5px solid #000000;
+    width: 100px;  /* Adjust icon size */
+    height: 100px;
+    object-fit: cover; /* Ensures image stays proportional */
+    border-radius: 10%; /* Optional: Makes it circular */
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Hover effect */
+}
+
+h1 {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.socials{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

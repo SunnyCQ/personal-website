@@ -2,11 +2,14 @@ import { useEffect, useState } from "react";
 import "../css_files/Homepage.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import Skills from "./sub_page/Skills";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
+  const location = useLocation();
 
+  //Handles the sun moving up and down
   useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
@@ -17,6 +20,16 @@ const Homepage = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  //Handles smooth scrolling when navigating to about page
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
 
   return (
     <>
@@ -33,25 +46,46 @@ const Homepage = () => {
           <h1 className="homepage-header">THIS IS SUNNY QI</h1>
         </div>
         <section id="about">
-          <h2 className="homepage-desc">About Me</h2>
-          <h2 className="homepage-desc">
-            I'm an aspiring programmer currently studying at Columbia
-            University. When I'm not grinding psets or coding projects in a
-            library, I'm usually working on{" "}
-            <Link className="links" to="/JapaneseLearning">
-              language learning
-            </Link>
-            ,{" "}
-            <Link className="links" to="/Piano">
-              piano practice
-            </Link>
-            , or just plain{" "}
-            <Link className="links" to="/Gaming">
-              gaming
-            </Link>{" "}
-            :&#41;
-          </h2>
+          <div className="homepage-desc">
+            <h1>About Me</h1>
+            <h2>
+              I'm an aspiring programmer currently studying computer engineering
+              at Columbia University. When I'm not grinding psets or coding
+              projects in a library, I'm usually working on{" "}
+              <Link className="links" to="/JapaneseLearning">
+                language learning
+              </Link>
+              ,{" "}
+              <Link className="links" to="/Piano">
+                piano practice
+              </Link>
+              , or just plain{" "}
+              <Link className="links" to="/Gaming">
+                gaming
+              </Link>{" "}
+              :&#41;
+            </h2>
+          </div>
         </section>
+        <section id="experience">
+          <div className="homepage-desc">
+            <h1>Experience</h1>
+            <div className="experience-item">
+              2025 June - 2025 August: Meta Intern
+            </div>
+            <div className="experience-item">
+              2024 June - 2024 August: Columbia University Research Group
+            </div>
+          </div>
+        </section>
+        <section id="skills">
+          <div className="homepage-desc">
+            <h1>Skills</h1>
+            <Skills />
+            <div className="experience">Hey what's up</div>
+          </div>
+        </section>
+
         <div className="additional-content"></div>
       </div>
     </>

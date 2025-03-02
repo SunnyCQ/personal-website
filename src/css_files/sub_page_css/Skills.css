@@ -1,0 +1,26 @@
+.skill-box {
+    background-color: rgb(255, 255, 255); /* Light gray background */
+    color: rgb(0, 0, 0);
+    border: 15px solid #000000;
+    margin-bottom: 50px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 200px;
+    width: 170px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.skill-box:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-color: #2682e5;
+}
+
+.skill-icon {
+    width: 110px; /* Adjust size of skill images */
+    height: 110px;
+    object-fit: contain; /* Prevents distortion */
+}

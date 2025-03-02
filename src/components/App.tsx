@@ -4,7 +4,7 @@ import Projects from "./Projects";
 import Piano from "./Piano";
 import JapaneseLearning from "./JapaneseLearning";
 import Gaming from "./Gaming";
-import About from "./About";
+// import About from "./About";
 import Contact from "./Contact";
 import "../css_files/App.css";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
@@ -13,25 +13,26 @@ function App() {
   return (
     <>
       <div className="app-container">
-        <Router>
-          <div>
-            <NavBar />
-            <div className="main-content">
-              <Routes>
-                <Route path="/" element={<Homepage />} />
-                {/* <Route path="/About" element={<About />} /> */}
-                <Route path="/Projects" element={<Projects />} />
-                <Route
-                  path="/JapaneseLearning"
-                  element={<JapaneseLearning />}
-                />
-                <Route path="/Piano" element={<Piano />} />
-                <Route path="/Gaming" element={<Gaming />} />
-                <Route path="/Contact" element={<Contact />} />
-              </Routes>
+        <div className="content">
+          <Router>
+            <div>
+              <NavBar />
+              <div className="main-content">
+                <Routes>
+                  <Route path="/" element={<Homepage />} />
+                  <Route path="/Projects" element={<Projects />} />
+                  <Route
+                    path="/JapaneseLearning"
+                    element={<JapaneseLearning />}
+                  />
+                  <Route path="/Piano" element={<Piano />} />
+                  <Route path="/Gaming" element={<Gaming />} />
+                  <Route path="/Contact" element={<Contact />} />
+                </Routes>
+              </div>
             </div>
-          </div>
-        </Router>
+          </Router>
+        </div>
         <footer className="footer">
           &copy; {new Date().getFullYear()} Sunny Carlin Qi. All rights
           reserved.
