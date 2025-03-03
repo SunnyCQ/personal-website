@@ -26,9 +26,6 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-0 mb-lg-0">
               <li className="nav-item">
-                {/* <a className="custom-nav-link active" href="#about">
-                  About
-                </a> */}
                 <Link className="custom-nav-link active" to="/#about">
                   About
                 </Link>
@@ -59,9 +56,7 @@ const NavBar = () => {
                       Piano
                     </Link>
                   </li>
-                  <li>
-                    <hr className="dropdown-divider" />
-                  </li>
+                  <li></li>
                   <li>
                     <Link className="dropdown-item" to="/Gaming">
                       Gaming
@@ -70,6 +65,15 @@ const NavBar = () => {
                 </ul>
               </li>
             </ul>
+            <li className="nav-item">
+              <a href="/public/sunny_qi_resume_V36.pdf" target="_blank">
+                <img
+                  src="/public/assets/pdf_icon.svg"
+                  alt="resume"
+                  className="resume-icon"
+                />
+              </a>
+            </li>
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link

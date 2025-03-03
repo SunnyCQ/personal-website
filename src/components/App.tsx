@@ -1,11 +1,12 @@
 import NavBar from "./NavBar";
 import Homepage from "./Homepage";
 import Projects from "./Projects";
-import Piano from "./More/Piano";
-import JapaneseLearning from "./More/JapaneseLearning";
-import Gaming from "./More/Gaming";
-// import About from "./About";
+import Piano from "./more/Piano";
+import JapaneseLearning from "./more/JapaneseLearning";
+import Gaming from "./more/Gaming";
 import Contact from "./Contact";
+import FSAE from "./projects/FSAE";
+import Autoscrub from "./projects/Autoscrub";
 import "../css_files/App.css";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
@@ -28,6 +29,10 @@ function App() {
                   <Route path="/Piano" element={<Piano />} />
                   <Route path="/Gaming" element={<Gaming />} />
                   <Route path="/Contact" element={<Contact />} />
+                  <Route path="/projects/FSAE" element={<FSAE />} />
+                  <Route path="/projects/autoscrub" element={<Autoscrub />} />
+                  <Route path="/projects/tomochat" element={<Autoscrub />} />
+                  <Route path="/projects/blackjack" element={<Autoscrub />} />
                 </Routes>
               </div>
             </div>

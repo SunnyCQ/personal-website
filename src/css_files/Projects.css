@@ -1,1 +1,7 @@
 @import url('./Styles.css');
+
+.title {
+    margin-top: 90px;
+    margin-bottom: 100px;
+    font-size: 80px;
+}

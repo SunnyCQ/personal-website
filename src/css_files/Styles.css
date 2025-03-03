@@ -15,3 +15,9 @@
     "Lucida Sans", Arial, sans-serif;
   color: white;
 }
+
+.wholepage {
+  width: 100%;
+  height: relative;
+}
+

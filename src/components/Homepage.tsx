@@ -54,7 +54,7 @@ const Homepage = () => {
               at Columbia University. When I'm not grinding psets or coding
               projects in a library, I'm usually working on{" "}
               <Link className="links" to="/JapaneseLearning">
-                language learning
+                learning Japanese
               </Link>
               ,{" "}
               <Link className="links" to="/Piano">
