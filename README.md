@@ -1,7 +1,20 @@
+MY NOTES:
+
 To test the server, type in bash: "npm run dev" in the folder of the personal website
 
 BTW, for some reason VSCode cannot push changes, but the terminal can, so just do "git push" when it comes time.
 
+Run 'npm run deploy' to deploy site to 'https://sunnycq.github.io/personal-website'
+
+The website is basically complete. Other than dynamically adding new projects, I need to:
+- Make it adjust better to mobile viewport. Text gets squished
+- You can also 'drag around' the mobile viewport. Look into a fix for that
+- Pictures get squished on mobile
+- Columbia and NYU photos are not centered on mobile
+
+Optional improvements
+- Make dropdown for experiences slow rather than instantaneous
+---END OF MY NOTES---
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
