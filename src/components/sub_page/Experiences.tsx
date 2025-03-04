@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import "../../css_files/sub_page_css/Experiences.css";
+import { useState } from "react";
 
 const experiences = [
   {

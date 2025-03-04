@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "../../css_files/sub_page_css/ProjectCards.css";
 import fsaeThumbnail from "/public/assets/project_pics/FSAE/FSAE_thumbnail.png";

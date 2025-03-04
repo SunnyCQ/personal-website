@@ -1,8 +1,3 @@
-interface Skill {
-    name: string;
-    image: string;
-}
-
 export const autoscrub_bg_pic: string = `
 .background-pic {
     background-image: url("/assets/project_pics/Autoscrub/logo.png");

@@ -10,7 +10,7 @@ import Autoscrub from "./projects/Autoscrub";
 import Blackjack from "./projects/Blackjack";
 import Tomochat from "./projects/Tomochat";
 import "../css_files/App.css";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
