@@ -44,13 +44,16 @@
     padding-bottom: 50px;
     width: 100%;
     object-fit: cover; /* Ensures images scale properly */
-    border-radius: 0px; /* Optional: Adds smooth rounded corners */
+    border-radius: 0px; /* Only smooths the top, so set to 0 */
   }
 
   .video-container {
     display: flex;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically (if container has a fixed height) */
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
   }
   
   .video-container video {

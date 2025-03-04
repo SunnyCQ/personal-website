@@ -38,11 +38,11 @@ const Blackjack = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h1>Play Here!</h1>
+            <h1>Click here to play!</h1>
           </a>
         </div>
         <section className="container my-5">
-          <h1> Technologies used </h1>
+          <h1>Skills Used</h1>
           <Skills skills={blackjack_tech} />
         </section>
         <section className="container my-5">

@@ -63,8 +63,6 @@ const Experience = () => {
               </span>
               <span className="arrow">{openId === exp.id ? "▲" : "▼"}</span>
             </button>
-
-            {/* Collapsible Details */}
             <div className={`collapse ${openId === exp.id ? "show" : ""}`}>
               <ul className="list-group list-group-flush">
                 {exp.details.map((detail, index) => (

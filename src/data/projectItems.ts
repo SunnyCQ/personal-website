@@ -142,8 +142,8 @@ export const fsae_projects: ProjectItem[]  = [
     {
         src: "/assets/project_pics/FSAE/FSAE_thumbnail.png",
         alt: "accumulator",
-        height: "900px",
-        width: "auto",
+        height: "auto",
+        width: "100%",
         colLg: 15,
     },
     ],

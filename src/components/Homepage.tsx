@@ -76,6 +76,43 @@ const Homepage = () => {
           </div>
           <Experiences />
         </section>
+        <section id="education">
+          <div className="homepage-desc">
+            <h1>Education</h1>
+            <div className="columbia">
+              <img
+                className="columbia-crown"
+                src="/assets/columbia_crown.png"
+                alt="Columbia crown"
+              />
+              <h2 className="edu-columbia">
+                Columbia University - School of Engineering and Applied Sciences
+              </h2>
+              <div className="edu-text">
+                <h2>New York, NY</h2>
+                <h2>Major: Computer Engineering</h2>
+                <h2>Date: 2023 Sept - 2026 May (expected)</h2>
+                <h2>Cumulative GPA: 4.01</h2>
+              </div>
+            </div>
+            <div className="nyu">
+              <img
+                className="nyu-torch"
+                src="/assets/nyu_torch.png"
+                alt="NYU torch"
+              />
+              <h2 className="edu-nyu">
+                New York University - Tandon School of Engineering
+              </h2>
+              <div className="edu-text">
+                <h2>New York, NY</h2>
+                <h2>Major: Computer Engineering</h2>
+                <h2>Date: 2022 Sept - 2023 May</h2>
+                <h2>Cumulative GPA: 3.92</h2>
+              </div>
+            </div>
+          </div>
+        </section>
         <section id="skills">
           <div className="homepage-desc">
             <h1>Skills</h1>

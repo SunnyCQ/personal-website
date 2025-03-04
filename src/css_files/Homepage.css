@@ -76,3 +76,46 @@
 .additional-content {
   height: 500px;
 }
+
+.columbia-crown {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.nyu-torch {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.edu-columbia {
+  margin-top: 25px;
+  background-color: rgb(25, 44, 128);
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.edu-nyu {
+  margin-top: 25px;
+  background-color: rgb(75, 15, 153);
+  border-radius: 3px;
+  padding: 20px;
+}
+
+
+.edu-text {
+  margin-top: 5px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 3px;
+  padding: 20px;
+  border: 5px solid black;
+}

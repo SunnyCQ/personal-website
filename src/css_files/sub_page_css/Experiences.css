@@ -16,7 +16,6 @@
     border: 0px solid rgb(0, 0, 0); /* Remove Bootstrap default borders */
     margin: 0; /* Remove any default margin */
     text-align: left;
-    
 }
 
 .list-group-item:hover {
@@ -24,10 +23,8 @@
     color: white;
 }
 
-.collapse {
-    margin: 0; /* Prevent spacing between collapsed content and border */
-    padding: 0; /* Remove default Bootstrap padding */
-}
+
+
 
 .list-group-item-action {
     border-radius: 0; /* Ensures edges align with the border */
@@ -36,4 +33,9 @@
     font-size: 25px;
     background-color: rgb(29, 29, 29);
     font-weight: bold;
+}
+
+.collapse {
+    margin: 0; /* Prevent spacing between collapsed content and border */
+    padding: 0; /* Remove default Bootstrap padding */
 }

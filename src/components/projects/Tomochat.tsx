@@ -26,7 +26,7 @@ const Tomochat = () => {
           </video>
         </section>
         <section className="container my-5">
-          <h1> Technologies used </h1>
+          <h1>Skills Used</h1>
           <Skills skills={tomochat_tech} />
         </section>
         <section className="container my-5">
