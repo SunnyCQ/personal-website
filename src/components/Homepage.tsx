@@ -107,7 +107,7 @@ const Homepage = () => {
               <div className="edu-text">
                 <h2>New York, NY</h2>
                 <h2>Major: Computer Engineering</h2>
-                <h2>Date: 2022 Sept - 2023 May</h2>
+                <h2>Date: 2022 Sept - 2023 May (transferred to Columbia)</h2>
                 <h2>Cumulative GPA: 3.92</h2>
               </div>
             </div>
