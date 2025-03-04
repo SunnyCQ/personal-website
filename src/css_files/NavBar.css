@@ -38,7 +38,7 @@
     padding: 0px;
 }
 .navbar-toggler-icon{ /*Controls the hamburger picture*/
-    background-image: url("public/assets/menu_burger_white.png") !important;
+    background-image: url("../../public/assets/menu_burger_white.png") !important;
     padding: 15px;
     margin: -3px;
 }
