@@ -3,74 +3,15 @@ import "../../css_files/Styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Skills from "../sub_page/Skills";
-import { blackjack_tech } from "../../data/skills/skillsData";
-
-const projects = [
-  {
-    title: "Blackjack Overview",
-    description: `This was a small but fun project where I implemented blackjack in a
-                  simple web format using only HTML and Javascript. The main focus was
-                  just to get some JS practice and review the fundamentals. I hope you
-                  enjoy the game!
-                  `,
-    images: [],
-  },
-  {
-    title: "Rules",
-    description: `You can read the rules as shown in the image below.`,
-    images: [
-      {
-        src: "/assets/project_pics/blackjack/website_layout.png",
-        alt: "blackjack rules",
-        height: "auto",
-        width: "100%",
-        colLg: 12,
-      },
-    ],
-  },
-  {
-    title: "Gameplay features",
-    description: `While not necessarily hard, the 'split' action in 
-                  blackjack was by far the most complicated feature I
-                  had to implement in the code. I did it to varying success,
-                  allowing the player to split once. However, for the sake of simplicity,
-                  I did not implement it to the degree of allowing the player to split
-                  over and over again, which is allowed in real poker.`,
-    images: [
-      {
-        src: "/assets/project_pics/blackjack/game_split_1.png",
-        alt: "split one",
-        height: "auto",
-        width: "100%",
-        colLg: 5,
-      },
-      {
-        src: "/assets/project_pics/blackjack/game_split_2.png",
-        alt: "split two",
-        height: "100%",
-        width: "100%",
-        colLg: 7,
-      },
-    ],
-  },
-];
-
-const bg_pic = `.background-pic {
-    background-image: url("/assets/project_pics/blackjack/blackjack_thumbnail.png");
-    background-size: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
-    margin: 50px;
-    position: relative;
-    overflow: hidden;
-}
-`;
+import { blackjack_tech } from "../../data/skillsData";
+import { blackjack_projects as projects } from "../../data/projectItems";
+import { blackjack_bg_pic as bg_pic } from "../../data/projectImage";
 
 const blackjack_link = `.blackjack-link {
     text-decoration: underline;
     color: var(--main-yellow);
 }`;
+
 const Blackjack = () => {
   return (
     <>

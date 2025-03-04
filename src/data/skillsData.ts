@@ -16,7 +16,6 @@ import mysqlIcon from "/public/assets/card_icons/mysql.png";
 import firebaseIcon from "/public/assets/card_icons/firebase.png";
 import vimIcon from "/public/assets/card_icons/vim.png";
 import godotIcon from "/public/assets/card_icons/godot.png";
-
 import typescriptIcon from "/public/assets/card_icons/typescript.png";
 import AnsysIcon from "/public/assets/card_icons/ansys.png";
 import ArduinoIcon from "/public/assets/card_icons/arduino.svg";

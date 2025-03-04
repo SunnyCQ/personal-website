@@ -6,7 +6,7 @@ import { Link, useLocation } from "react-router-dom";
 import Skills from "./sub_page/Skills";
 import Experiences from "./sub_page/Experiences";
 
-import { all_skills } from "../data/skills/skillsData";
+import { all_skills } from "../data/skillsData";
 
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);

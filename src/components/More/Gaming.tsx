@@ -7,7 +7,9 @@ const Gaming = () => {
   return (
     <>
       <div className="general-font">
-        <h1>This is the Gaming page. Work in progress.</h1>
+        <div className="work-in-progress align-items-center">
+          <h1>This is the Gaming page. Work in progress.</h1>
+        </div>
       </div>
     </>
   );

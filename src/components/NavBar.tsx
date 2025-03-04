@@ -24,7 +24,7 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-0 mb-lg-0">
+            <ul className="navbar-left navbar-nav me-auto mb-0 mb-lg-0">
               <li className="nav-item">
                 <Link className="custom-nav-link active" to="/#about">
                   About
@@ -56,7 +56,6 @@ const NavBar = () => {
                       Piano
                     </Link>
                   </li>
-                  <li></li>
                   <li>
                     <Link className="dropdown-item" to="/Gaming">
                       Gaming
@@ -65,7 +64,7 @@ const NavBar = () => {
                 </ul>
               </li>
             </ul>
-            <li className="nav-item">
+            <li className="nav-item d-flex align-items-center">
               <a href="/public/sunny_qi_resume_V36.pdf" target="_blank">
                 <img
                   src="/public/assets/pdf_icon.svg"
@@ -93,85 +92,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-/*<nav className="navbar  navbar-expand-lg bg-dark">
-        <div className="container-fluid">
-          <ul className="nav d-flex justify-content-between">
-            <li className="nav-item">
-              <a className="nav-link navbar-brand active" href="#">
-                NotePro
-              </a>
-            </li>
-            <li className="nav-item ">
-              <a className="nav-link" href="#">
-                LogIn
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-
-<a className="navbar-logo" href="#">
-            SCQ
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="custom-nav-link" aria-current="page" href="#">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="custom-nav-link" href="#">
-                  Projects
-                </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="custom-nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Misc.
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Piano
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Gaming
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Japanese Learning
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <form className="d-flex" role="search">
-              <li className="custom-nav-item-right">
-                <a className="custom-nav-link" href="#">
-                  Contact
-                </a>
-              </li>
-            </form>
-          </div> */
