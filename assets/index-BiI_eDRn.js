@@ -111,7 +111,7 @@ Please change the parent <Route path="${ne}"> to <Route path="${ne==="/"?"*":`${
                 I did not implement it to the degree of allowing the player to split
                 over and over again, which is allowed in real poker.`,images:[{src:"/assets/project_pics/tomochat/chatbot.png",alt:"tomochat commands",height:"auto",width:"100%",colLg:7},{src:"/assets/project_pics/tomochat/flashcard.png",alt:"tomochat commands",height:"auto",width:"100%",colLg:5}]}],Gv=`
 .background-pic {
-    background-image: url("/assets/project_pics/Autoscrub/logo.png");
+    background-image: url("/personal-website/assets/project_pics/Autoscrub/logo.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ Please change the parent <Route path="${ne}"> to <Route path="${ne==="/"?"*":`${
 }
 `,Xv=`
 .background-pic {
-    background-image: url("/assets/project_pics/blackjack/blackjack_thumbnail.png");
+    background-image: url("/personal-website/assets/project_pics/blackjack/blackjack_thumbnail.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@ Please change the parent <Route path="${ne}"> to <Route path="${ne==="/"?"*":`${
 }
 `,Qv=`
 .background-pic {
-    background-image: url("/assets/project_pics/FSAE/FSAE_thumbnail.png");
+    background-image: url("/personal-website/assets/project_pics/FSAE/FSAE_thumbnail.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@ Please change the parent <Route path="${ne}"> to <Route path="${ne==="/"?"*":`${
     position: relative;
     overflow: hidden;
 }`,Vv=`.background-pic {
-    background-image: url("/assets/project_pics/tomochat/chatbot.png");
+    background-image: url("/personal-website/assets/project_pics/tomochat/chatbot.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
