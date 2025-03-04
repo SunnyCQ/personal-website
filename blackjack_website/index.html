@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Blackjack</title>
+  </head>
+  <body>
+    <div id="blackjack">
+        <h1 id = "bj_title">Blackjack Simulator</h1>
+        <img id="blackjack-pic" src="./images/blackjack-icon-2.png">
+        <div class = "rules-main">
+            <h2>Rules: </h2>
+            <p>
+                The goal is to get as close to 21 as possible without going over it. You win if you have a hand higher than the dealer's while being below 21,
+                you win. If you exceed 21, you "bust", meaning you automatically lose. 
+            </p>
+
+            <div id="moveset">
+                <h3>There are three moves:</h3>
+                <ul>
+                    <li>Hit: Recieve a new card</li>
+                    <li>Stand: Keep your current hand</li>
+                    <li>Split: Split two identical cards into two separate hands</li>
+                </ul>
+            </div>
+
+            <div id="card-values">
+                <h3>Card values: </h3>
+                <ul>
+                    <li>J, Q, and K: All 10s</li>
+                    <li>2 to 10: Face value</li>
+                    <li>A: 1 or 11*</li>
+                </ul>
+                <p id="ace_disclaimer">* Note: totals of hands containing aces will be calculated as its highest possible value without going over 21.</p>
+            </div>
+            
+
+            <div id="game-progression">
+                <h3>Progression:</h3>
+                <ol>
+                    <li>You place a bet that abides by the minimum and maximum limits.</li>
+                    <li>The dealer hands a card face-up to you player and a card face-down for themselves.</li>
+                    <li>The dealer hands another card to you and themselves, with both cards face-up this time.</li>
+                    <li>You decide if you want to STAND or HIT. You may hit as many times as you want (as long as you don't go over 21)</li>
+                    <li>The dealer flips his first card. If their total is 16 or less, they must hit. Otherwise, they stand.</li>
+                    <li>Determine payouts depending on cards.</li>
+                </ol>
+            </div>
+
+            <div id="payouts">
+                <h3>Payout rules:</h3>
+                <ul>
+                    <li>If your hand is better, you get double your bet back.</li>
+                    <li>If your hand is worse, you lose the money you betted.</li>
+                    <li>If your hand and the dealer's have the same value (including 21), the dealer PUSHES, meaning you just get your bet back.</li>
+                    <li>If you get a blackjack and the dealer doesn't, you get paid out 3:2 (If you bet 2 chips, you get 3 on top of that, totalling to 5 chips)</li>
+                </ul>
+            </div>
+            <h2>Happy Gambling!</h2>
+        </div>
+        <div class = "game-interface">
+            <h2 id = "chip_counter">Your chips: $200</h2>
+            <div class = "main-game-control">
+                <div>
+                    <p>If you forfeit and END GAME, you only get half of your original bet back.</p>
+                    <button id="start_game">Start Game</button>
+                </div>
+
+                <div id = "enter_bet">
+                    <label for="bet">Enter your bet:</label>
+                    <input type="number" id="bet" name="bet" min="10" max="100" step="10" value="10">
+                </div>
+                <!-- <button id="reset_game">Reset Game</button> -->
+            </div>
+
+            <div id="bet_display">
+                Your bet: 
+            </div>
+            <div id="game_status">
+                Press start game to start.
+            </div>
+
+            <div class = "main-game">
+                <strong>
+                    <div id="indicators">
+                        <span class="card-indicator">Dealer cards:</span><br>
+                        <span class="card-indicator">Player cards:</span> 
+                    </div>
+                </strong>
+                <div class = "blackjack-controls">
+                    <button id="hit">Hit!</button> <!--If the player goes over 21, the game should immediately end-->
+                    <button id="stand">Stand!</button>
+                    <button id="split">Split!</button> <!--Should only show up when possible-->
+                </div>
+                
+                <!-- <div id="totals">
+                    <span class="total">Dealer total: ?</span><br> 
+                    <span class="total">Your total: 14</span>
+                </div> -->
+
+                <div id="actions_info"></div>
+                <div id="win_loss_info">Result: Game ongoing...</div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./script.js"></script> <!--Placed at end so that JS only reads html after the body has been read.-->
+  </body>
+  <footer>
+    <p id="footer-text">
+        Site by Sunny Carlin Qi. For more games, please refer to
+        <a href="https://csgoskins.gg/">here</a>.
+    </p>
+  </footer>
+</html>
