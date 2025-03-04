@@ -1,6 +1,6 @@
 export const autoscrub_bg_pic: string = `
 .background-pic {
-    background-image: url("/assets/project_pics/Autoscrub/logo.png");
+    background-image: url("/personal-website/assets/project_pics/Autoscrub/logo.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ export const autoscrub_bg_pic: string = `
 
 export const blackjack_bg_pic: string = `
 .background-pic {
-    background-image: url("/assets/project_pics/blackjack/blackjack_thumbnail.png");
+    background-image: url("/personal-website/assets/project_pics/blackjack/blackjack_thumbnail.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ export const blackjack_bg_pic: string = `
 
 export const fsae_bg_pic: string = `
 .background-pic {
-    background-image: url("/assets/project_pics/FSAE/FSAE_thumbnail.png");
+    background-image: url("/personal-website/assets/project_pics/FSAE/FSAE_thumbnail.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@ export const fsae_bg_pic: string = `
 }`;
 
 export const tomochat_bg_pic: string = `.background-pic {
-    background-image: url("/assets/project_pics/tomochat/chatbot.png");
+    background-image: url("/personal-website/assets/project_pics/tomochat/chatbot.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

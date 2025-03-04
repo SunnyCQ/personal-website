@@ -6,6 +6,7 @@ import Skills from "../sub_page/Skills";
 import { autoscrub_tech } from "../../data/skillsData";
 import { autoscrub_projects as projects } from "../../data/projectItems";
 import { autoscrub_bg_pic as bg_pic } from "../../data/projectImage";
+// import autoscrubVideo from "/src/assets/project_pics/Autoscrub/autoscrub_demo.MP4";
 
 const Autoscrub = () => {
   return (
@@ -19,7 +20,7 @@ const Autoscrub = () => {
         <section className="video-container container my-5">
           <video width="600" height="340" controls>
             <source
-              src="/assets/project_pics/Autoscrub/autoscrub_demo.MP4"
+              src="/personal-website/assets/project_pics/Autoscrub/autoscrub_demo.MP4"
               type="video/mp4"
             />
             Your browser does not support the video tag.

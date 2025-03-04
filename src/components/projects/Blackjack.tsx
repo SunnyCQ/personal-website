@@ -6,6 +6,7 @@ import Skills from "../sub_page/Skills";
 import { blackjack_tech } from "../../data/skillsData";
 import { blackjack_projects as projects } from "../../data/projectItems";
 import { blackjack_bg_pic as bg_pic } from "../../data/projectImage";
+// import blackjackVideo from "/src/assets/project_pics/blackjack/blackjack_demo.mp4";
 
 const blackjack_link = `.blackjack-link {
     text-decoration: underline;
@@ -25,7 +26,7 @@ const Blackjack = () => {
         <section className="video-container container my-5">
           <video width="600" height="340" controls>
             <source
-              src="/assets/project_pics/blackjack/blackjack_demo.mp4"
+              src="/personal-website/assets/project_pics/blackjack/blackjack_demo.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -34,7 +35,7 @@ const Blackjack = () => {
         <div>
           <a
             className="blackjack-link"
-            href="/public/blackjack_website/index.html"
+            href="/personal-website/blackjack_website/index.html"
             target="_blank"
             rel="noopener noreferrer"
           >

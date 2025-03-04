@@ -23,9 +23,6 @@
     color: white;
 }
 
-
-
-
 .list-group-item-action {
     border-radius: 0; /* Ensures edges align with the border */
     margin-top: -4px;

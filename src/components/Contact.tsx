@@ -60,7 +60,7 @@ const Contact = () => {
                 target="_blank"
               >
                 <img
-                  src="/public/assets/github-icon.png"
+                  src="/personal-website/assets/github-icon.png"
                   alt="Github Profile"
                   className="social-icon"
                 />
@@ -72,7 +72,7 @@ const Contact = () => {
                 target="_blank"
               >
                 <img
-                  src="/public/assets/linkedin-icon.png"
+                  src="/personal-website/assets/linkedin-icon.png"
                   alt="LinkedIn Profile"
                   className="social-icon"
                 />

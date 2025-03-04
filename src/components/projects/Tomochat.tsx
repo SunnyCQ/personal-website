@@ -6,6 +6,7 @@ import Skills from "../sub_page/Skills";
 import { tomochat_tech } from "../../data/skillsData";
 import { tomochat_projects as projects } from "../../data/projectItems";
 import { tomochat_bg_pic as bg_pic } from "../../data/projectImage";
+// import tomochatVideo from "/src/assets/project_pics/tomochat/tomochat_demo.mp4";
 
 const Tomochat = () => {
   return (
@@ -19,7 +20,7 @@ const Tomochat = () => {
         <section className="video-container container my-5">
           <video width="600" height="340" controls>
             <source
-              src="/assets/project_pics/tomochat/tomochat_demo.mp4"
+              src="/personal-website/assets/project_pics/tomochat/tomochat_demo.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.

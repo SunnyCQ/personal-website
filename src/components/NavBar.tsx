@@ -64,9 +64,12 @@ const NavBar = () => {
               </li>
             </ul>
             <li className="nav-item d-flex align-items-center">
-              <a href="/public/sunny_qi_resume_V36.pdf" target="_blank">
+              <a
+                href="/personal-website/assets/sunny_qi_resume_V36.pdf"
+                target="_blank"
+              >
                 <img
-                  src="/public/assets/pdf_icon.svg"
+                  src="/personal-website/assets/pdf_icon.svg"
                   alt="resume"
                   className="resume-icon"
                 />

@@ -1,32 +1,34 @@
 import { Link } from "react-router-dom";
 import "../../css_files/sub_page_css/ProjectCards.css";
-import fsaeThumbnail from "/public/assets/project_pics/FSAE/FSAE_thumbnail.png";
-import autoscrubThumbnail from "/public/assets/project_pics/Autoscrub/logo.png";
-import blackjackThumbnail from "/public/assets/project_pics/Blackjack/blackjack_thumbnail.png";
-import tomochatThumbnail from "/public/assets/project_pics/tomochat/tomochat_thumbnail.png";
+// import fsaeThumbnail from "/src/assets/project_pics/FSAE/FSAE_thumbnail.png";
+// import autoscrubThumbnail from "/src/assets/project_pics/Autoscrub/logo.png";
+// import blackjackThumbnail from "/src/assets/project_pics/Blackjack/blackjack_thumbnail.png";
+// import tomochatThumbnail from "/src/assets/project_pics/tomochat/tomochat_thumbnail.png";
 
 const projects = [
   {
     name: "FSAE",
-    image: fsaeThumbnail,
+    image: "/personal-website/assets/project_pics/FSAE/FSAE_thumbnail.png",
     link: "/projects/FSAE",
     size: "500px",
   },
   {
     name: "Autoscrub",
-    image: autoscrubThumbnail,
+    image: "/personal-website/assets/project_pics/Autoscrub/logo.png",
     link: "/projects/autoscrub",
     size: "500px",
   },
   {
     name: "Tomochat",
-    image: tomochatThumbnail,
+    image:
+      "/personal-website/assets/project_pics/tomochat/tomochat_thumbnail.png",
     link: "/projects/tomochat",
     size: "500px",
   },
   {
     name: "Blackjack",
-    image: blackjackThumbnail,
+    image:
+      "/personal-website/assets/project_pics/blackjack/blackjack_thumbnail.png",
     link: "/projects/blackjack",
     size: "400px",
   },

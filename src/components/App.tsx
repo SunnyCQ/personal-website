@@ -17,7 +17,7 @@ function App() {
     <>
       <div className="app-container">
         <div className="content">
-          <Router>
+          <Router basename="/personal-website">
             <div>
               <NavBar />
               <div className="main-content">

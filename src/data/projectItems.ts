@@ -48,7 +48,7 @@ export const autoscrub_projects: ProjectItem[] = [
                     power level controls, and a manuel mode on/off switch.`,
       images: [
         {
-          src: "/assets/project_pics/Autoscrub/circuit.png",
+          src: "/personal-website/assets/project_pics/Autoscrub/circuit.png",
           alt: "circuit diagram",
           height: "600px",
           width: "auto",
@@ -64,14 +64,14 @@ export const autoscrub_projects: ProjectItem[] = [
                     form the above circuit board physically.`,
       images: [
         {
-          src: "/assets/project_pics/Autoscrub/CAD_model.png",
+          src: "/personal-website/assets/project_pics/Autoscrub/CAD_model.png",
           alt: "CAD model",
           height: "550px",
           width: "auto",
           colLg: 7,
         },
         {
-          src: "/assets/project_pics/Autoscrub/final_product.png",
+          src: "/personal-website/assets/project_pics/Autoscrub/final_product.png",
           alt: "final Autoscrub prototype",
           height: "650px",
           width: "auto",
@@ -96,7 +96,7 @@ export const blackjack_projects: ProjectItem[] = [
     description: `You can read the rules as shown in the image below.`,
     images: [
     {
-        src: "/assets/project_pics/blackjack/website_layout.png",
+        src: "/personal-website/assets/project_pics/blackjack/website_layout.png",
         alt: "blackjack rules",
         height: "auto",
         width: "100%",
@@ -114,14 +114,14 @@ export const blackjack_projects: ProjectItem[] = [
                 over and over again, which is allowed in real poker.`,
     images: [
     {
-        src: "/assets/project_pics/blackjack/game_split_1.png",
+        src: "/personal-website/assets/project_pics/blackjack/game_split_1.png",
         alt: "split one",
         height: "auto",
         width: "100%",
         colLg: 5,
     },
     {
-        src: "/assets/project_pics/blackjack/game_split_2.png",
+        src: "/personal-website/assets/project_pics/blackjack/game_split_2.png",
         alt: "split two",
         height: "100%",
         width: "100%",
@@ -140,7 +140,7 @@ export const fsae_projects: ProjectItem[]  = [
                     strengthened my 3D CAD skills significantly.`,
     images: [
     {
-        src: "/assets/project_pics/FSAE/FSAE_thumbnail.png",
+        src: "/personal-website/assets/project_pics/FSAE/FSAE_thumbnail.png",
         alt: "accumulator",
         height: "auto",
         width: "100%",
@@ -155,14 +155,14 @@ export const fsae_projects: ProjectItem[]  = [
                     such as orienting the direction of the force and applying different materials`,
     images: [
     {
-        src: "/assets/project_pics/FSAE/cylinder.webp",
+        src: "/personal-website/assets/project_pics/FSAE/cylinder.webp",
         alt: "cylinder stress test",
         height: "auto",
         width: "auto",
         colLg: 7,
     },
     {
-        src: "/assets/project_pics/FSAE/hinge.webp",
+        src: "/personal-website/assets/project_pics/FSAE/hinge.webp",
         alt: "hinge stress test",
         height: "400px",
         width: "auto",
@@ -190,7 +190,7 @@ export const tomochat_projects: ProjectItem[] = [
     description: `You can read the different tomochat commands as shown below.`,
     images: [
     {
-        src: "/assets/project_pics/tomochat/help.png",
+        src: "/personal-website/assets/project_pics/tomochat/help.png",
         alt: "tomochat commands",
         height: "auto",
         width: "100%",
@@ -208,14 +208,14 @@ export const tomochat_projects: ProjectItem[] = [
                 over and over again, which is allowed in real poker.`,
     images: [
     {
-        src: "/assets/project_pics/tomochat/chatbot.png",
+        src: "/personal-website/assets/project_pics/tomochat/chatbot.png",
         alt: "tomochat commands",
         height: "auto",
         width: "100%",
         colLg: 7,
     },
     {
-        src: "/assets/project_pics/tomochat/flashcard.png",
+        src: "/personal-website/assets/project_pics/tomochat/flashcard.png",
         alt: "tomochat commands",
         height: "auto",
         width: "100%",

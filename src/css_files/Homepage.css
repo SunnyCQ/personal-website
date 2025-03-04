@@ -23,7 +23,7 @@
 }
 
 .homepage-banner {
-  background-image: url("/assets/red_orange_gradient.jpg");
+  background-image: url("../../public/assets/red_orange_gradient.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -40,7 +40,7 @@ const Homepage = () => {
         <div className="homepage-banner">
           <img
             className="sun-image"
-            src="/assets/sun.png"
+            src="/personal-website/assets/sun.png"
             alt="Sun"
             style={{ transform: `translate(-50%, ${scrollY * 0.5}px)` }} // Moves sun dynamically
           />
@@ -82,7 +82,7 @@ const Homepage = () => {
             <div className="columbia">
               <img
                 className="columbia-crown"
-                src="/assets/columbia_crown.png"
+                src="/personal-website//assets/columbia_crown.png"
                 alt="Columbia crown"
               />
               <h2 className="edu-columbia">
@@ -98,7 +98,7 @@ const Homepage = () => {
             <div className="nyu">
               <img
                 className="nyu-torch"
-                src="/assets/nyu_torch.png"
+                src="/personal-website//assets/nyu_torch.png"
                 alt="NYU torch"
               />
               <h2 className="edu-nyu">
