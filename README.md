@@ -7,6 +7,8 @@ BTW, for some reason VSCode cannot push changes, but the terminal can, so just d
 Run 'npm run deploy' to deploy site to 'https://sunnycq.github.io/personal-website'
 
 The website is basically complete. Other than dynamically adding new projects, I need to:
+- Make the 'contact me' message box actually send messages
+- Add the japanese learning, piano, and gaming pages
 - Make it adjust better to mobile viewport. Text gets squished
 - You can also 'drag around' the mobile viewport. Look into a fix for that
 - Pictures get squished on mobile
