@@ -6,6 +6,8 @@ import { Link, useLocation } from "react-router-dom";
 import Skills from "./sub_page/Skills";
 import Experiences from "./sub_page/Experiences";
 
+import { all_skills } from "../data/skills/skillsData";
+
 const Homepage = () => {
   const [scrollY, setScrollY] = useState(0);
   const location = useLocation();
@@ -77,7 +79,7 @@ const Homepage = () => {
         <section id="skills">
           <div className="homepage-desc">
             <h1>Skills</h1>
-            <Skills />
+            <Skills skills={all_skills} />
           </div>
         </section>
       </div>

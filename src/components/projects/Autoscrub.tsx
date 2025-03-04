@@ -1,7 +1,9 @@
-import "../../css_files/projects_css/Autoscrub.css";
+import "../../css_files/projects_css/ProjectGeneral.css";
 import "../../css_files/Styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import Skills from "../sub_page/Skills";
+import { autoscrub_tech } from "../../data/skills/skillsData";
 
 const projects = [
   {
@@ -40,6 +42,8 @@ const projects = [
       {
         src: "/assets/project_pics/Autoscrub/circuit.png",
         alt: "circuit diagram",
+        height: "600px",
+        colLg: 12,
       },
     ],
   },
@@ -53,38 +57,67 @@ const projects = [
       {
         src: "/assets/project_pics/Autoscrub/CAD_model.png",
         alt: "CAD model",
+        height: "550px",
+        colLg: 7,
       },
       {
         src: "/assets/project_pics/Autoscrub/final_product.png",
         alt: "final Autoscrub prototype",
+        height: "650px",
+        colLg: 5,
       },
     ],
   },
 ];
 
+const bg_pic = `.background-pic {
+    background-image: url("/assets/project_pics/Autoscrub/logo.png");
+    background-size: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+`;
+
 const Autoscrub = () => {
   return (
     <>
+      <style>{bg_pic}</style>
       <div className="wholepage general-font">
-        <div className="top-banner"></div>
+        <div className="background-pic"></div>
         <div className="homepage-bg">
-          <h1 className="homepage-header">
-            AUTOSCRUB: FINAL ENGINEERING PROJECT
-          </h1>
+          <h1 className="homepage-header">AUTOSCRUB: NYU FINAL PROJECT</h1>
         </div>
+        <section className="video-container container my-5">
+          <video width="600" height="340" controls>
+            <source
+              src="/assets/project_pics/Autoscrub/autoscrub_demo.MP4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </section>
+        <section className="container my-5">
+          <h1> Technologies used </h1>
+          <Skills skills={autoscrub_tech} />
+        </section>
         <section className="container my-5">
           {projects.map((project, index) => (
             <div key={index} className="mb-5">
               <h2 className="pic-title">{project.title}</h2>
               <p className="pic-desc">{project.description}</p>
-              <div className="grid-container">
+              <div className="row">
                 {project.images.map((image, imgIndex) => (
-                  <img
-                    key={imgIndex}
-                    src={image.src}
-                    alt={image.alt}
-                    className="grid-image"
-                  />
+                  <div key={imgIndex} className={`col-lg-${image.colLg}`}>
+                    <img
+                      src={image.src}
+                      alt={image.alt}
+                      className="img-fluid"
+                      style={{ height: image.height, objectFit: "cover" }}
+                    />
+                  </div>
                 ))}
               </div>
             </div>
@@ -96,3 +129,16 @@ const Autoscrub = () => {
 };
 
 export default Autoscrub;
+
+{
+  /* <div className="grid-container">
+{project.images.map((image, imgIndex) => (
+  <img
+    key={imgIndex}
+    src={image.src}
+    alt={image.alt}
+    className="grid-image"
+  />
+))}
+</div> */
+}

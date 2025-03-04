@@ -1,0 +1,33 @@
+Priority list:
+
+1. make split work (hard)
+- make split work for the player (Dealer cannot split THANK GOD)
+2. allow insurance (maybe?)
+
+split:
+- enabled ability to have two hands
+- when you stand, you get to start hitting the other hand
+
+To fix:
+- when you go over on the first hand, second hand becomes inaccessible.
+- when game is ending, must calculate both hands and indicate them
+
+
+when split(dupe cards), second hand must have bet equalling to first hand. start with one hand, hit till satisfied, then go to the other hand and do the same. if its a pair of aces, then only one card allowed per hand.
+
+
+main blackjack game is complete. However, splitting does not work yet (figure out how to make buttons disappear and reappear)
+
+For calculating hands with aces, just assume the highest hand without going over.
+Since it is impossible for a hand to exist with both aces being 11, the only two conditions are:
+
+There is one ace that is 11 and all other aces are 1
+and
+All aces are 1.
+
+Thus, if there is an ace in the hand, just add 11 initially and, if it goes over, minus 10. 
+
+
+Remaining functions:
+Double up the bet on a hand
+Multiple splits(please no)

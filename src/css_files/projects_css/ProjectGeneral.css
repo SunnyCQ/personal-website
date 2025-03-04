@@ -1,0 +1,62 @@
+.content-container {
+    display: flex;
+    align-items: center; /* Centers content vertically */
+    justify-content: space-between;
+    gap: 20px; /* Adds space between image and text */
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .image-container {
+    flex: 1; /* Takes up half the space */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-image {
+    max-width: 100%; /* Ensures it scales properly */
+    height: auto;
+    border-radius: 8px; /* Optional rounded corners */
+  }
+  
+  .text-container {
+    flex: 1; /* Takes up the other half */
+    text-align: left;
+  }
+  
+  .pic-title {
+    font-size: 50px;
+  }
+
+  .pic-desc {
+    font-size: 25px;
+  }
+
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive fit */
+    gap: 5px; /* Reduces gaps between images */
+  }
+
+  .img-fluid {
+    padding-bottom: 50px;
+    width: 100%;
+    object-fit: cover; /* Ensures images scale properly */
+    border-radius: 0px; /* Optional: Adds smooth rounded corners */
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically (if container has a fixed height) */
+  }
+  
+  .video-container video {
+    max-width: 100%; /* Resizes but keeps aspect ratio */
+    max-height: 100%; /* Limits height */
+    width: 100%; /* Ensures responsiveness */
+    height: auto;
+  }
+  

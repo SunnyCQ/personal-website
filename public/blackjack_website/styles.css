@@ -1,0 +1,130 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 0);
+    margin-left: 20%;
+    min-width: 300px;
+    max-width: 2000px;
+    margin-right: 20%;
+    margin-top: 50px;
+}
+
+footer {
+    font-family:'Times New Roman', Times, serif;
+    background-color: grey;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+#footer-text {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#blackjack {
+    background-color: grey;
+    padding: 50px;
+    margin-bottom: -20px;
+}
+
+#bj_title{
+    text-align: center;
+}
+
+#blackjack-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main-game {
+    font-family: monospace;
+    border: 5px solid #660355;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #0a0a23;
+    margin-top: 20px;
+}
+
+/*Card indicators:*/
+#indicators{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.card-indicator {
+    padding-bottom: 0px;
+    display: inline-block;
+    width: 220px; /* Adjust the width as needed */
+    text-align: left;
+}
+
+/*Card total indicators:*/
+#totals {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.total {
+    margin-bottom: 10px;
+}
+
+#start_game{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(hsl(108, 77%, 66%), #15ff00);
+    border: 3px solid #2bff00;
+    margin-bottom: 16px;
+}
+
+#hit{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(hsl(29, 100%, 62%), #ff0000);
+    border: 3px solid #ff0000;
+}
+
+#stand{
+    cursor: pointer;
+    background-image: linear-gradient(#fff56e, #ffac33);
+    border: 3px solid #feac32;
+}
+
+#split{
+    cursor: pointer;
+    background-image: linear-gradient(#ee88f1, #ca0488);
+    border: 3px solid #ff00dd;
+}
+
+#game_status, #actions_info, #bet_display{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#win_loss_info {
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#ace_disclaimer {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+label {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#enter_bet {
+    margin-top: 20px;
+}

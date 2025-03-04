@@ -20,27 +20,51 @@ import firebaseIcon from "/public/assets/card_icons/firebase.png";
 import vimIcon from "/public/assets/card_icons/vim.png";
 import godotIcon from "/public/assets/card_icons/godot.png";
 
-const skills = [
-  { name: "Python", image: pythonIcon },
-  { name: "C++", image: cplusplusIcon },
-  { name: "C", image: cIcon },
-  { name: "Java", image: javaIcon },
-  { name: "HTML", image: htmlIcon },
-  { name: "CSS", image: cssIcon },
-  { name: "JavaScript", image: javascriptIcon },
-  { name: "React", image: reactIcon },
-  { name: "Bootstrap", image: bootstrapIcon },
-  { name: "NodeJS", image: nodejsIcon },
-  { name: "Flask", image: flaskIcon },
-  { name: "MySQL", image: mysqlIcon },
-  { name: "FireBase", image: firebaseIcon },
-  { name: "Git", image: gitIcon },
-  { name: "Vim", image: vimIcon },
-  { name: "Godot", image: godotIcon },
-  { name: "Fusion 360", image: fusion360Icon },
-  { name: "SolidWorks", image: solidworksIcon },
-];
-const Skills = () => {
+import { Skill } from "../../data/skills/skillsData.js"; // Import the type
+
+interface SkillsProps {
+  skills: Skill[];
+}
+
+// const skills = [
+//   { name: "Python", image: pythonIcon },
+//   { name: "C++", image: cplusplusIcon },
+//   { name: "C", image: cIcon },
+//   { name: "Java", image: javaIcon },
+//   { name: "HTML", image: htmlIcon },
+//   { name: "CSS", image: cssIcon },
+//   { name: "JavaScript", image: javascriptIcon },
+//   { name: "React", image: reactIcon },
+//   { name: "Bootstrap", image: bootstrapIcon },
+//   { name: "NodeJS", image: nodejsIcon },
+//   { name: "Flask", image: flaskIcon },
+//   { name: "MySQL", image: mysqlIcon },
+//   { name: "FireBase", image: firebaseIcon },
+//   { name: "Git", image: gitIcon },
+//   { name: "Vim", image: vimIcon },
+//   { name: "Godot", image: godotIcon },
+//   { name: "Fusion 360", image: fusion360Icon },
+//   { name: "SolidWorks", image: solidworksIcon },
+// ];
+
+// const Skills = () => {
+//   return (
+//     <section id="skills" className="container my-5">
+//       <div className="row">
+//         {skills.map((skill, index) => (
+//           <div key={index} className="col-md-4 d-flex justify-content-center">
+//             <div className="skill-box p-3 text-center rounded shadow-sm">
+//               <img src={skill.image} alt={skill.name} className="skill-icon" />
+//               <p className="mt-2">{skill.name}</p>
+//             </div>
+//           </div>
+//         ))}
+//       </div>
+//     </section>
+//   );
+// };
+
+const Skills: React.FC<SkillsProps> = ({ skills }) => {
   return (
     <section id="skills" className="container my-5">
       <div className="row">

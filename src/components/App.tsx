@@ -7,6 +7,8 @@ import Gaming from "./more/Gaming";
 import Contact from "./Contact";
 import FSAE from "./projects/FSAE";
 import Autoscrub from "./projects/Autoscrub";
+import Blackjack from "./projects/Blackjack";
+import Tomochat from "./projects/Tomochat";
 import "../css_files/App.css";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
@@ -31,8 +33,8 @@ function App() {
                   <Route path="/Contact" element={<Contact />} />
                   <Route path="/projects/FSAE" element={<FSAE />} />
                   <Route path="/projects/autoscrub" element={<Autoscrub />} />
-                  <Route path="/projects/tomochat" element={<Autoscrub />} />
-                  <Route path="/projects/blackjack" element={<Autoscrub />} />
+                  <Route path="/projects/tomochat" element={<Tomochat />} />
+                  <Route path="/projects/blackjack" element={<Blackjack />} />
                 </Routes>
               </div>
             </div>
